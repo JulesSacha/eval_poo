@@ -1,0 +1,29 @@
+{% extends 'baseHome.html.twig' %}
+
+{% block title %}Hello GameController!{% endblock %}
+
+{% block body %}
+<div class="col-4 offset-4">
+
+    
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Nom du jeu </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nom du jeu">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">nombre min. de joueurs</label>
+          <input type="number" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group">
+            <label class="form-check-label" for="exampleCheck1">Nombre max. de joueur</label>
+            <input type="number" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    <div class="dropdown-divider my-3"></div>
+
+</div>
+</main>
+{% endblock %}
